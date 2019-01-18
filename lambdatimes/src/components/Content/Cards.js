@@ -16,8 +16,9 @@ Cards.propTypes = {
   cards: PropTypes.arrayOf(
     PropTypes.shape({
       headline: PropTypes.string,
-      imageUrl: PropTypes.string,
-      author: PropTypes.string
+      img: PropTypes.string,
+      author: PropTypes.string,
+      tab: PropTypes.string
     })
   )
 };
